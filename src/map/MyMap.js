@@ -18,7 +18,7 @@ const MapComponent = () => {
       console.log('markerPosition[0]:', lat)
       console.log('markerPosition[1]:', lng)
       console.log('radius:', rad)
-      const response = await axios.post("http://127.0.0.1:8000/get_clusters/", {
+      const response = await axios.post("http://13.60.170.37:8000/get_clusters/", {
         lat: lat,
         lng: lng,
         radius: milesToKm(rad) * 1000
