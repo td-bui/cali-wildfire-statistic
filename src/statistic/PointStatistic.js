@@ -18,7 +18,7 @@ const PointStatistic = () => {
         if (!lat || !lng) navigate('/404')
         lat = parseFloat(lat)
         lng = parseFloat(lng)
-        const response = await axios.post("http://localhost:8000/get_cluster_data/", {
+        const response = await axios.post("http://127.0.0.1:8000/get_cluster_data/", {
             lat: lat,
             lng: lng,
         });
