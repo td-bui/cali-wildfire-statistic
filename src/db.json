@@ -1,0 +1,18 @@
+{
+  "warnings": [
+    {
+      "id": "1",
+      "lat": 38.3,
+      "lng": -121.1,
+      "radius": 10,
+      "color": "red"
+    },
+    {
+      "id": "2",
+      "lat": 38.4,
+      "lng": -121.2,
+      "radius": 20,
+      "color": "red"
+    }
+  ]
+}

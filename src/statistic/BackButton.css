@@ -1,0 +1,22 @@
+.back-button-container {
+    position: fixed;
+    top: 20px;  /* Khoảng cách từ trên */
+    left: 20px;  /* Khoảng cách từ trái */
+    z-index: 1000;  /* Đảm bảo nút không bị che khuất bởi các phần tử khác */
+  }
+  
+  .back-button {
+    background: none;
+    border: 2px solid #32CD32;
+    color: #32CD32; /* Màu xanh chữ */
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 2px 12px;  /* Khoảng cách giữa nội dung và viền */
+    border-radius: 5px;  /* Bo tròn các góc */
+    transition: all 0.3s ease;  /* Thêm hiệu ứng khi hover */
+  }
+  
+  .back-button:hover {
+    color: #228B22; /* Màu khi hover */
+  }
+  
